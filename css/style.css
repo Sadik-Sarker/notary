@@ -1,0 +1,400 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* header start */
+header {
+  padding: 15px 0;
+  /* border: 1px solid green; */
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+.logo {
+  width: 19%;
+  float: left;
+  /* border: 1px solid blue; */
+}
+.logo a img {
+  width: 100%;
+}
+.menu {
+  width: 80%;
+  float: right;
+  margin-top: 4px;
+  /* border: 1px solid orange; */
+}
+.menu ul {
+  float: right;
+}
+.menu ul li {
+  list-style-type: none;
+  float: left;
+  /* border: 1px solid cyan; */
+}
+.menu ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  padding: 0 15px;
+  transition: 0.3s;
+  color: #535d69;
+}
+.menu ul li a:hover {
+  color: #bd233f;
+}
+.menu ul li:last-child a {
+  padding-right: 0;
+}
+/* header end */
+/* banner start */
+.banner {
+  background-image: url(../images/business.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-position: center;
+  background-color: rgb(0 0 0 / 50%);
+  background-blend-mode: multiply;
+}
+.b-content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 50%;
+  /* border: 1px solid white; */
+}
+.b-content h1 {
+  font-family: sans-serif;
+  font-size: 56px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.b-content p {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 26px;
+}
+.b-content button {
+  width: 260px;
+  height: 50px;
+  background-color: #be2342;
+  border: none;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.b-content button:hover {
+  -webkit-box-shadow: 1px 1px 5px 2px rgba(190, 35, 66, 1);
+  -moz-box-shadow: 1px 1px 5px 2px rgba(190, 35, 66, 1);
+  box-shadow: 1px 1px 5px 2px rgba(190, 35, 66, 1);
+}
+/* banner end */
+/* work section start */
+.work {
+  padding: 70px 0;
+}
+.w-text,
+.feature-text {
+  /* border: 1px solid red; */
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.w-text h1,
+.feature-text h1 {
+  font-family: sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.w-text p,
+.feature-text p {
+  font-family: sans-serif;
+  color: #535d69;
+  letter-spacing: 1px;
+  line-height: 23px;
+}
+.w-service {
+  /* border: 1px solid greenyellow; */
+  overflow: hidden;
+}
+.w-service .service-item {
+  margin: 0 5.3%;
+  width: 20%;
+  float: left;
+  /* border: 1px solid blueviolet; */
+}
+.w-service .service-item:nth-child(2) {
+  margin: 0 9%;
+}
+.w-service .service-item .item-img {
+  width: 80%;
+  margin: 0 auto;
+  /* border: 1px solid cyan; */
+}
+.w-service .service-item .item-img img {
+  width: 100%;
+}
+.w-service .service-item .item-text {
+  text-align: center;
+}
+.w-service .service-item .item-text p {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0 10px;
+  color: #4c515a;
+  margin: 20px 0;
+}
+/* work section end */
+/* learn section start */
+.learn {
+  background-color: #fafafa;
+  overflow: hidden;
+  padding: 100px 0;
+  /* border: 1px solid; */
+}
+.learn-container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+.learn-left {
+  width: 45%;
+  float: left;
+  /* border: 1px solid red; */
+}
+.learn-left h1 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 35px;
+}
+.learn-left p {
+  font-family: sans-serif;
+  color: #535d69;
+  line-height: 20px;
+}
+.learn-left button {
+  width: 150px;
+  height: 50px;
+  background-color: #be2342;
+  border: none;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.learn-left button:hover {
+  -webkit-box-shadow: 1px 1px 5px 2px rgba(190, 35, 66, 1);
+  -moz-box-shadow: 1px 1px 5px 2px rgba(190, 35, 66, 1);
+  box-shadow: 1px 1px 5px 2px rgba(190, 35, 66, 1);
+}
+.learn-right {
+  /* border: 1px solid blue; */
+  margin-left: 5%;
+  width: 45%;
+  float: left;
+}
+/* learn section end */
+/* feature section start */
+.feature {
+  padding: 60px 0;
+}
+.feature-gal {
+  /* border: 1px solid red; */
+  overflow: hidden;
+}
+.gal-single {
+  width: 29%;
+  border: 1px solid #f3f3f3;
+  float: left;
+  margin: 2% 2%;
+  transition: all 0.5s;
+}
+.gal-single:hover {
+  -webkit-box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+.gal-single .single-img {
+  width: 25%;
+  margin: 30px auto;
+}
+.gal-single .single-img img {
+  width: 100%;
+}
+.gal-single .single-text {
+  text-align: center;
+}
+.gal-single .single-text h2 {
+  font-family: sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.gal-single .single-text p {
+  font-family: sans-serif;
+  padding: 0 15px;
+  line-height: 23px;
+  color: #535d69;
+}
+.button {
+  margin: 80px 40%;
+}
+.feature .button button {
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #be2342;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #f3f3f3;
+  transition: all 0.3s;
+}
+.feature .button button:hover {
+  -webkit-box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.75);
+}
+/* feature section end */
+/* contact part start */
+.contact {
+  background-color: #000;
+  font-family: sans-serif;
+  padding: 60px 0;
+}
+.contact-wrapper {
+  overflow: hidden;
+}
+.contact-wrapper .contact-us {
+  float: left;
+  margin-right: 2%;
+  width: 31%;
+  /* border: 1px solid red; */
+}
+.contact-wrapper h2 {
+  margin-left: 13%;
+  text-transform: uppercase;
+  color: #be2342;
+}
+.contact-wrapper .contact-us ul {
+}
+.contact-wrapper .contact-us ul li {
+  margin: 10px 0;
+  color: #535d69;
+  list-style-type: none;
+}
+.contact-wrapper .contact-us ul li i {
+  color: #be2342;
+}
+.contact-wrapper .contact-us .social {
+  margin-top: 50px;
+  margin-left: 12%;
+}
+.contact-wrapper .contact-us .social i {
+  width: 20px;
+  text-align: center;
+  padding: 7px 2%;
+  margin: 0 1%;
+  font-size: 17px;
+  transition: all 0.3s;
+  background-color: #535d69;
+  border-radius: 3px;
+}
+.contact-wrapper .contact-us .social i:hover {
+  background-color: #be2342;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.contact-wrapper .link {
+  float: left;
+  margin-left: 2%;
+  width: 28%;
+  /* border: 1px solid blue; */
+}
+.contact-wrapper .link ul {
+}
+.contact-wrapper .link ul li {
+  margin: 10px 0;
+  list-style-type: none;
+}
+.contact-wrapper .link ul li a {
+  text-decoration: none;
+  color: #535d69;
+  transition: all 0.3s;
+}
+.contact-wrapper .link ul li:hover a {
+  color: #be2342;
+}
+.contact-wrapper .newsletter {
+  float: left;
+  /* margin: 0 2%; */
+  width: 30%;
+  /* border: 1px solid cyan; */
+}
+.contact-wrapper .newsletter p {
+  line-height: 25px;
+  color: #535d69;
+  margin-left: 13%;
+}
+.contact-wrapper .newsletter input {
+  width: 42%;
+  height: 40px;
+  margin-left: 13%;
+  padding: 0 4%;
+  font-size: 15px;
+  background-color: black;
+  border-color: #535d69;
+  border: 1px solid #535d69;
+  /* outline: 1px solid #535d69; */
+}
+.contact-wrapper .newsletter button {
+  width: 35%;
+  height: 42px;
+  background-color: #be2342;
+  border: none;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: -2%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+/* contact part end */
+/* footer start */
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #535d69;
+}
+footer p {
+  color: #fff;
+  font-family: sans-serif;
+}
+/* footer end */
